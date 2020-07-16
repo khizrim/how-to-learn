@@ -1,4 +1,6 @@
-<head></head>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./styles/style.css">
@@ -8,27 +10,20 @@
 <body>
   <div class="page">
     <header class="header">
-      <img
-        class="logo logo_place_header"
-        src="./images/logo_place_header.svg"
-        alt="Логотип">
-      <h1 class="header__title">Научиться учиться</h1>
-      <p class="header__subtitle">
+      <img src="./images/logo_place_header.svg" alt="Логотип Яндекс Практикума" class="logo logo_place_header">
+      <div class="header__square-pic"></div>
+      <img src="./images/header-image.png" alt="Опять двойка" class="header__main-illustration">
+      <h1 class="header__title centered-vertical">Научиться учиться</h1>
+      <h5 class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
         <a href="#" class="header__link">Узнать →</a>
-      </p>
-      <img
-        class="header__main-illustration"
-        src="./images/header-image.png"
-        alt="Опять двойка">
-      <div class="header__square-pic"></div>
+      </h5>
     </header>
+
     <main class="content">
       <section class="description">
-        <div class="two-columns">
-          <h4 class="two-columns__brief">
-            Главные проблемы в обучении
-          </h4>
+        <div class="two-columns centered-horisontal">
+          <h5 class="two-columns__brief">Главные проблемы в обучении</h5>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
               Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.
@@ -39,22 +34,21 @@
             <p class="two-columns__paragraph">
               Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.
             </p>
-          </div>
         </div>
       </section>
 
       <section class="digits">
-        <h2 class="section-title">Цифры и факты</h2>
-        <h3 class="section-subtitle">Про учёбу и мозг</h3>
-        <ul class="table list">
+        <h3 class="section-title centered-horisontal">Цифры и факты</h3>
+        <h4 class="section-subtitle centered-horisontal">Про учебу и мозг</h4>
+        <ul class="table centered-horisontal list">
           <li class="table__cell">
-              <h4 class="table__heading">86 миллиардов</h4>
-              <p class="table__text">Число нейронов в мозге человека</p>
+            <h4 class="table__heading">86 миллиардов</h4>
+            <p class="table__text">Число нейронов в мозге человека</p>
           </li>
           <li class="table__cell">
             <h4 class="table__heading">2.1 миллиарда</h4>
             <p class="table__text">Число нуждающихся в повышении квалификации</p>
-            <p class="table__text_description">Всемирный Банк, 2017</p>
+            <p class="table__text table__text_description">Всемирный Банк, 2017</p>
           </li>
           <li class="table__cell">
             <h4 class="table__heading">1000 терабайт</h4>
@@ -67,7 +61,7 @@
           <li class="table__cell">
             <h4 class="table__heading">420 миллионов</h4>
             <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
-            <p class="table__text_description">Всемирный Банк, 2017</p>
+            <p class="table__text table__text_description">Всемирный Банк, 2017</p>
           </li>
           <li class="table__cell">
             <h4 class="table__heading">17–20 лет</h4>
@@ -85,16 +79,16 @@
       </section>
 
       <section class="feinman">
-        <h2 class="feinman__title">Метод Фейнмана</h2>
-        <h3 class="feinman__subtitle">Выучить и не забыть.</h3>
+        <img src="./images/feynman.png" alt="Ричард Фейнман" class="feinman__background-image">
+        <h2 class="feinman__title centered-horisontal">Метод Фейнмана</h2>
+        <h3 class="feinman__subtitle centered-horisontal">Выучить и не забыть.</h3>
         <a href="#" class="feinman__link">Подробнее →</a>
-        <img src="./images/feynman.png" alt="Фейнман" class="feinman__background-image">
       </section>
 
       <section class="kaufman">
-        <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
-        <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
-        <ul class="table table_theme_dark list">
+        <h2 class="section-title section-title_theme_dark centered-horisontal">Принципы обучения</h2>
+        <h3 class="section-subtitle section-subtitle_theme_dark centered-horisontal">от Джоша Кауфмана</h3>
+        <ul class="table centered-horisontal table_theme_dark list">
           <li class="table__cell table__cell_theme_dark">
             <h4 class="table__heading table__heading_theme_dark">1</h4>
             <p class="table__text table__text_theme_dark">Выберите привлекательный проект.</p>
@@ -139,45 +133,29 @@
         <div class="kaufman__triangle"></div>
       </section>
     </main>
-    <footer class="footer">
-      <div class="footer__columns">
-        <div class="footer__column_content_copyright">
-          <img
-            src="./images/logo_place_footer.svg"
-            alt="Логотип"
-            class="logo__place_footer">
+    <footer class="footer centered-horisontal">
+      <div class="footer__columns centered-horisontal">
+        <div class="footer__column_content_copyright centered-vertical">
+          <img  src="./images/logo_place_footer.svg"  alt="Логотип" class="logo__place_footer">
           <h4 class="footer__author">© 2020. Хизри Махмудов</h4>
         </div>
         <div class="footer__column_content_info">
           <h4 class="footer__column_heading">О Практикуме</h4>
-          <ul class="footer__column_links">
-            <li>
-              <a href="#" class="footer__column_links">Главная</a>
-            </li>
-            <li>
-              <a href="#" class="footer__column_links">Концепция</a>
-            </li>
-            <li>
-              <a href="#" class="footer__column_links">Наставники</a>
-            </li>
-          </ul>
+          <nav class="footer__column_links centered-vertical">
+              <a href="#" class="footer__column_link">Главная</a>
+              <a href="#" class="footer__column_link">Концепция</a>
+              <a href="#" class="footer__column_link">Наставники</a>
+          </nav>
         </div>
         <div class="footer__column_content_social">
           <h4 class="footer__column_heading">Соцсети</h4>
-          <ul class="footer__column_links">
-            <li>
-              <a href="#" class="footer__column_links">
-                <img src="./images/facebook_color_white.svg" alt="Иконка Фейсбук" class="footer__social-icon">Facebook</a>
-            </li>
-            <li>
-              <a href="#" class="footer__column_links"><img src="./images/vk_color_white.svg" alt="Иконка ВКонтакте" class="footer__social-icon">ВКонтакте</a>
-            </li>
-            <li>
-              <a href="#" class="footer__column_links"><img src="./images/instagram_color_white.svg" alt="" class="footer__social-icon">Instagram</a>
+          <nav class="footer__column_links centered-vertical">
+              <a href="#" class="footer__column_link"><img src="./images/facebook_color_white.svg" alt="Иконка Фейсбук" class="footer__social-icon">Facebook</a>
+              <a href="#" class="footer__column_link"><img src="./images/vk_color_white.svg" alt="Иконка ВКонтакте" class="footer__social-icon">ВКонтакте</a>
+              <a href="#" class="footer__column_link"><img src="./images/instagram_color_white.svg" alt="" class="footer__social-icon">Instagram</a>
             </li>
           </ul>
         </div>
-      </div>
     </footer>
   </div>
 </body>
