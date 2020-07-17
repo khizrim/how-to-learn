@@ -168,7 +168,7 @@
   font-weight: normal;
 }
 
-.table__text_description {
+.table__text:last-child {
   margin: 0;
 }
 
@@ -323,8 +323,4 @@
   width: 16px;
   height: 16px;
   margin-right: 10px;
-}
-
-.common__space {
-  display: block;
 }
