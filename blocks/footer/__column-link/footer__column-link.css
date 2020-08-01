@@ -6,6 +6,10 @@
   list-style: none;
   text-decoration: none;
   transition: opacity 0.3s ease-in-out;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
 }
 
 .footer__column-link:hover {

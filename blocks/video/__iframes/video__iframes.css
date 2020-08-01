@@ -4,4 +4,8 @@
   justify-content: center;
   column-gap: 20px;
   transform: translate(0, 50px);
+  -webkit-transform: translate(0, 50px);
+  -moz-transform: translate(0, 50px);
+  -ms-transform: translate(0, 50px);
+  -o-transform: translate(0, 50px);
 }

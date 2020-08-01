@@ -8,6 +8,10 @@
   font-weight: normal;
   color: #1f1f1f;
   transition: opacity 0.3s ease-in-out;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
 }
 
 .feinman__link:hover {
