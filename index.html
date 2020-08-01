@@ -2,7 +2,6 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
@@ -41,41 +40,41 @@
       <section class="techniques">
         <h2 class="section-title">Техники обучения</h2>
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
-        <div class="cards">
-          <div class="cards__item">
+        <ul class="cards">
+          <li class="cards__item">
             <img src="./images/cards-attention.png" alt="Книга в руках" class="cards__image">
             <h3 class="cards__title">Два вида внимания</h3>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
-          </div>
-          <div class="cards__item">
+          </li>
+          <li class="cards__item">
             <img src="./images/cards-recall.png" alt="Античная статуя" class="cards__image">
             <h3 class="cards__title">Recall</h3>
             <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
-          </div>
-          <div class="cards__item">
+          </li>
+          <li class="cards__item">
             <img src="./images/cards-interliving.png" alt="Всемирный Торговый Центр, Нью-Йорк" class="cards__image">
             <h3 class="cards__title">Интерливинг</h3>
             <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
-          </div>
-          <div class="cards__item">
+          </li>
+          <li class="cards__item">
             <img src="./images/cards-question.png" alt="Человек в комнате" class="cards__image">
             <h3 class="cards__title">Вопросы</h3>
             <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
-          </div>
-          <div class="cards__item">
+          </li>
+          <li class="cards__item">
             <img src="./images/cards-competence.png" alt="Стопка книг на ладони" class="cards__image">
             <h3 class="cards__title">Иллюзия компетентности</h3>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
 
       <section class="video">
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </section>
 
@@ -205,35 +204,55 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <img src="./images/logo/resources-arzamas.svg" alt="Логотип Арзамаса" class="resources__logo">
-          <img src="./images/logo/resources-n1.svg" alt="Логотип N+1" class="resources__logo">
-          <img src="./images/logo/resources-strelka.svg" alt="Логотип Стрелки" class="resources__logo">
-          <img src="./images/logo/resources-polka.svg" alt="Логотип Полки" class="resources__logo">
-        </div>
+        <ul class="resources__logo-zone">
+          <li class="resources__logo">
+            <a href="#"><img src="./images/logo/resources-arzamas.svg" alt="Логотип Арзамаса"></a>
+          </li>
+          <li class="resources__logo">
+            <a href="#"><img src="./images/logo/resources-n1.svg" alt="Логотип N+1"></a>
+          </li>
+          <li class="resources__logo">
+            <a href="#"><img src="./images/logo/resources-strelka.svg" alt="Логотип Стрелки"></a>
+          </li>
+          <li class="resources__logo">
+            <a href="#"><img src="./images/logo/resources-polka.svg" alt="Логотип Полки"></a>
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
           <img  src="./images/logo_place_footer.svg"  alt="Логотип" class="logo logo_place_footer">
-          <p class="footer__author">© 2020. Хизри Махмудов</p>
+          <p class="footer__author">&copy;2020. Хизри Махмудов</p>
         </div>
-        <div class="footer__column footer__column_content_info">
+        <div class="footer__column">
           <h2 class="footer__column-heading">О Практикуме</h2>
-          <nav class="footer__column-links">
+          <ul class="footer__column footer__column_content_info">
+            <li class="footer__column-links">
               <a href="#" class="footer__column-link">Главная</a>
+            </li>
+            <li class="footer__column-links">
               <a href="#" class="footer__column-link">Концепция</a>
+            </li>
+            <li class="footer__column-links">
               <a href="#" class="footer__column-link">Наставники</a>
-          </nav>
+            </li>
+          </ul>
         </div>
-        <div class="footer__column footer__column_content_social">
+        <div class="footer__column">
           <h2 class="footer__column-heading">Соцсети</h2>
-          <nav class="footer__column-links">
+          <ul class="footer__column footer__column_content_social">
+            <li class="footer__column-links">
               <a href="#" class="footer__column-link"><img src="./images/facebook_color_white.svg" alt="Иконка Фейсбук" class="footer__social-icon">Facebook</a>
+            </li>
+            <li class="footer__column-links">
               <a href="#" class="footer__column-link"><img src="./images/vk_color_white.svg" alt="Иконка ВКонтакте" class="footer__social-icon">ВКонтакте</a>
+            </li>
+            <li class="footer__column-links">
               <a href="#" class="footer__column-link"><img src="./images/instagram_color_white.svg" alt="Иконка Инстаграма" class="footer__social-icon">Instagram</a>
-          </nav>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>

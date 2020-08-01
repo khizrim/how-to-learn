@@ -3,3 +3,7 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.footer__column-links:last-child {
+  margin-bottom: 16px;
+}

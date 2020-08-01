@@ -1,4 +1,15 @@
 .resources__logo {
   width: 270px;
   height: 38px;
+  list-style: none;
+  text-align: center;
+  transition: opacity 0.3s ease-in-out;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+}
+
+.resources__logo:hover {
+  opacity: 60%;
 }
